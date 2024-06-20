@@ -58,7 +58,7 @@ const Modal = () => {
       </div>
 
       <div className='flex absolute right-96 top-56'>
-        <button onClick={showActive} className={` ${showActiveBackgrounds ? "hidden" : "px-3 py-2 bg-black text-white"} `}>Edit background</button>
+        {/* <button onClick={showActive} className={` ${showActiveBackgrounds ? "hidden" : "px-3 py-2 bg-black text-white"} `}>Edit background</button> */}
       </div>
 
       {showActiveBackgrounds === true &&
